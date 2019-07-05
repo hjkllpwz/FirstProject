@@ -8,4 +8,5 @@
 
 import UIKit
 import Foundation
+var cycyleTimer : Timer?
 
