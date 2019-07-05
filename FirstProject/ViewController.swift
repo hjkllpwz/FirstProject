@@ -16,8 +16,12 @@ class ViewController: UIViewController {
         imageView.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         imageView.backgroundColor = .red
         self.view.addSubview(imageView)
+        
     }
-
+    func createBtn() {
+        let btn = UIButton.init(type: .custom)
+        self.view.addSubview(btn)
+    }
 
 }
 
